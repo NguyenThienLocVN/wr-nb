@@ -49,22 +49,22 @@ export const SidebarWrapper = () => {
                      <CollapseItems
                         icon={<PaymentsIcon />}
                         items={[
-                           { name: 'Quản lý cấp phép', href: 'giay-phep/quan-ly' },
-                           { name: 'KTSD Nước mặt', href: 'giay-phep/nuoc-mat' },
-                           { name: 'KTSD Nước dưới đất', href: 'giay-phep/ktsd-nuoc-duoi-dat' },
-                           { name: 'Thăm dò NDĐ', href: 'giay-phep/tham-do-nuoc-duoi-dat' },
-                           { name: 'Hành nghề khoan', href: 'giay-phep/hanh-nghe-khoan' },
-                           { name: 'Xả thải', href: 'giay-phep/xa-thai' }
+                           { name: 'Quản lý cấp phép', href: '/giay-phep/quan-ly' },
+                           { name: 'KTSD Nước mặt', href: '/giay-phep/nuoc-mat' },
+                           { name: 'KTSD Nước dưới đất', href: '/giay-phep/ktsd-nuoc-duoi-dat' },
+                           { name: 'Thăm dò NDĐ', href: '/giay-phep/tham-do-nuoc-duoi-dat' },
+                           { name: 'Hành nghề khoan', href: '/giay-phep/hanh-nghe-khoan' },
+                           { name: 'Xả thải', href: '/giay-phep/xa-thai' }
                         ]}
                         title="Giấy phép"
                      />
                      <CollapseItems
                         icon={<BalanceIcon />}
                         items={[
-                           { name: 'Bản đồ vị trí công trình', href: 'cong-trinh/quan-ly' },
-                           { name: 'Nước mặt', href: 'cong-trinh/nuoc-mat' },
-                           { name: 'Nước dưới đất', href: 'cong-trinh/nuoc-duoi-dat' },
-                           { name: 'Xả thải', href: 'cong-trinh/xa-thai' }
+                           { name: 'Bản đồ vị trí công trình', href: '/cong-trinh/quan-ly' },
+                           { name: 'Nước mặt', href: '/cong-trinh/nuoc-mat' },
+                           { name: 'Nước dưới đất', href: '/cong-trinh/nuoc-duoi-dat' },
+                           { name: 'Xả thải', href: '/cong-trinh/xa-thai' }
                         ]}
                         title="Công trình"
                      />

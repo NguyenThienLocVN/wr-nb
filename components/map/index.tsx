@@ -3,7 +3,6 @@ import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 import ReactLeafletKml from 'react-leaflet-kml';
 
-
 export default function Map() {
   const center = [15.023683, 108.662813];
 

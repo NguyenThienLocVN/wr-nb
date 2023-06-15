@@ -3,6 +3,11 @@ import ConstructionStatus from "./card-cons-status";
 import {Flex} from '../styles/flex';
 import ChartLicense from "./chart-license";
 import CountLicenseFee from "./card-license-fee";
+import dynamic from 'next/dynamic';
+
+const MapWithNoSSR = dynamic(() => import('../map'), {
+   ssr: false,
+});
 
 export const Content = () => {
   
@@ -45,7 +50,7 @@ export const Content = () => {
       <Grid xs={8}>
          <Card>
             <Card.Body>
-               MAP
+               <MapWithNoSSR />
             </Card.Body>
          </Card>
       </Grid>
