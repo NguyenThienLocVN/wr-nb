@@ -6,7 +6,7 @@ import ReactLeafletKml from 'react-leaflet-kml';
 export default function Map() {
   const center = [15.023683, 108.662813];
 
-  const [kml, setKml] = React.useState(null);
+  const [kml, setKml] = React.useState<any | null>(null);
 
   React.useEffect(() => {
     fetch(
